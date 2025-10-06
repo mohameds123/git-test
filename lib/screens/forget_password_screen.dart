@@ -7,7 +7,7 @@ class ForgetPasswordScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("Forget Password Screen", style: TextStyle(fontSize: 32),),
+        child: Text("Forget Password Screen", style: TextStyle(fontSize: 32,fontWeight:FontWeight.w700),),
       ),
     );
   }
